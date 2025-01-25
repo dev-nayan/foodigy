@@ -10,7 +10,7 @@ function Error() {
     <div className="err">
       <h1>
         <FontAwesomeIcon icon={faCircleXmark} style={{ color: "red" }} />
-        {myError.status} Page {myError.statusText}!!!
+        {myError.status} My Page  {myError.statusText}!!!
       </h1>
       <h3>{myError.data}</h3>
 
